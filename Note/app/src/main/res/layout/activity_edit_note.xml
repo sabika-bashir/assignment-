@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editNote"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editsubject"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Add Subject"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editbody"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Add Detail"
+        android:inputType="textMultiLine"
+        android:layout_marginLeft="10dp"/>
+</LinearLayout>

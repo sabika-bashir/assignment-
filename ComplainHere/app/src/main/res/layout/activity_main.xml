@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complain Portal"
+            android:layout_marginTop="-68dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="23dp">
+
+        </TextView>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="-180dp"
+            android:paddingTop="90dp"
+            android:src="@drawable/images"
+
+            >
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21dp"
+            android:layout_marginLeft="-0dp"
+            android:textColor="#fff"
+            android:paddingTop="90dp"
+            android:text="Sabika"
+
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-58dp"
+            android:layout_marginTop="16dp"
+            android:textSize="12dp"
+            android:textColor="#fff"
+
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addComplain"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/button"
+        android:text="Add Complain"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"/>
+    <Button
+        android:id="@+id/view_complain"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="View Complain"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"/>
+
+</LinearLayout>
